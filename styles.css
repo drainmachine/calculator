@@ -1,0 +1,46 @@
+.housing {
+    background-color:#0faf90;
+    border: 5px solid black;
+}
+
+.housing {
+    display: flex;
+    height: 450px;
+    width: 375px; 
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.screen {
+    margin-top: 25px;
+    background-color: black;
+    height: 70px;
+    width: 325px;
+    border-radius: 5px;
+}
+
+
+.interface {
+    display: flex;
+    margin-top: 20px;
+
+/* generates a 4x4 grid of whatever elements inside, baby */
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+
+
+
+button {
+    display: flex;
+    background-color: #ffc23f;
+    border-radius: 5px;
+    border: 4px solid black;
+    height: 70px;
+    width: 70px;
+}
