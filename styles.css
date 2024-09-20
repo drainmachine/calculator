@@ -9,6 +9,7 @@
     width: 375px; 
     flex-direction: column;
     align-items: center;
+    border-radius: 10px;
     
 }
 
@@ -17,11 +18,11 @@
     background-color: black;
     height: 70px;
     width: 325px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 
-.interface {
+.container {
     display: flex;
     margin-top: 20px;
 
@@ -39,8 +40,17 @@
 button {
     display: flex;
     background-color: #ffc23f;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 4px solid black;
     height: 70px;
     width: 70px;
+}
+
+
+.operator {
+    background-color: #3fc2ff;
+}
+
+.evaluator {
+    background-color: #c03e35;
 }
